@@ -1,1 +1,6 @@
-# HW-9-ReadMe-Generator
+# 3
+ - 5
+ - 2
+ - 5
+ - 3
+ - 3

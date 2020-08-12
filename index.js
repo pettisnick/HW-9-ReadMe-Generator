@@ -28,15 +28,50 @@ function promptUser() {
         },
         {
           type: "input",
-          name: "contribution guidelines",
+          name: "contributionGuidelines",
           message: "What are the guidelines for the project?"
         },
         {
           type: "input",
-          name: "test instructions",
+          name: "testInstructions",
           message: "How do you test out your projects?"
-        }
-        
+        },
+        {
+          type: "list",
+          name: "badge",
+          message: "What type of license do you want?",
+          choices: ['apache 2', '3']
 
-    ]);
+        }
+
+
+
+    ])
+
+
+     .then(answers => {
+        var output = ('# ' + answers.title + '\n ' + '- ' + answers.description + '\n ' + '- ' + answers.installation + '\n ' + '- ' + answers.usage + '\n ' + '- ' + answers.contributionGuidelines + '\n ' + '- ' + answers.testInstructions);
+        console.log(output);
+        console.log(answers);
+        if (answers.badge === 'apache 2') {
+          output = output + ' \n ' + '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) '
+        }
+       fs.writeFile('README.md', output, function(err) {
+
+        if (err) {
+          return console.log(err);
+        }
+      
+        console.log("Success!");
+       });
+      })
+}
+      promptUser() 
+      
+
+//create ReadMe page
+function generateReadMe(answers) {
+    return `
+ 
+    `
 }
