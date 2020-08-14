@@ -1,4 +1,4 @@
-# a 
+# ReadMe Generator 
             
   ###
   
@@ -6,7 +6,7 @@
   
   ## Description
   
-    * a
+    This is a CLI application that can be used in other projects as a template.
     
   ## Table of Contents
   
@@ -20,44 +20,42 @@
 
   [Tests](#tests)
 
-  [Known Bugs](#known-bugs)
-
-  [Future Developement](#future-development)
+  [Issues](#issues)
 
   [Questions](#questions)
 
   ## Installation
 
-    * ### How to install a
+    ### How to install ReadMe Generator
 
-      * a
+      No instructions are needed
   
   ## Usage
     
-    * a
+    Type 'node index.js' in the command line
 
   ## License
 
-  Apache 2
+  The Unlicesne
 
   ## Contributing
 
-    * ### Contributing to a
+    ### Contributing to ReadMe Generator
     
-      * undefined
+     undefined
       
   ## Tests
   
-    * a
+    No tests
     
-  ## Known Bugs
+  ## Issues
   
-    * undefined
+    N/A
     
   ## Questions
 
     *Please feel free to reach out to me if you have any other questions
 
-      * https://github.com/a
+      https://github.com/Pettisnick
 
-      * a
+      Pettisnick@gmail.com

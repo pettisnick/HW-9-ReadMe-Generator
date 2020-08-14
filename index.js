@@ -29,6 +29,11 @@ const questions = [
   },
   {
     type: "input",
+    name: "issues",
+    message: "Are there any issues at this time?",
+  },
+  {
+    type: "input",
     name: "contribution",
     message: "Enter any contribution the guidelines for the project",
   },
@@ -83,7 +88,7 @@ function init() {
   
   ## Description
   
-    * ${data.description}
+    ${data.description}
     
   ## Table of Contents
   
@@ -93,25 +98,23 @@ function init() {
   
   [License](#license)
   
-  [Contributing]{#contributing}
+  [Contributing](#contributing)
 
-  [Tests]{#tests}
+  [Tests](#tests)
 
-  [Known Bugs]{#known-bugs}
+  [Issues](#issues)
 
-  [Future Developement]{#future-development}
-
-  [Questions]{#questions}
+  [Questions](#questions)
 
   ## Installation
 
-    * ### How to install ${data.title}
+    ### How to install ${data.title}
 
-      * ${data.installation}
+      ${data.installation}
   
   ## Usage
     
-    * ${data.usage}
+    ${data.usage}
 
   ## License
 
@@ -119,25 +122,25 @@ function init() {
 
   ## Contributing
 
-    * ### Contributing to ${data.title}
+    ### Contributing to ${data.title}
     
-      * ${data.constribution}
+     ${data.constribution}
       
   ## Tests
   
-    * ${data.test}
+    ${data.test}
     
-  ## Known Bugs
+  ## Issues
   
-    * ${data.issues}
+    ${data.issues}
     
   ## Questions
 
     *Please feel free to reach out to me if you have any other questions
 
-      * https://github.com/${data.github}
+      https://github.com/${data.github}
 
-      * ${data.email}`;
+      ${data.email}`;
     //The template for the ReadMe ends
 
     //creating the README.md file
